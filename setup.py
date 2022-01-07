@@ -263,9 +263,8 @@ setup(
     author_email='lud@tutanota.com',
     license='MIT',
 
-    setup_requires=['cffi>=1.3.0', 'pytest-runner==2.6.2'],
+    setup_requires=['cffi>=1.3.0'],
     install_requires=['cffi>=1.3.0'],
-    tests_require=['pytest==2.8.7'],
 
     packages=find_packages(exclude=('_cffi_build', '_cffi_build.*', 'libsecp256k1')),
     ext_package="secp256k1",
